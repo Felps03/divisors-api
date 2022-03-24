@@ -8,7 +8,7 @@ const _divisors = (number) => {
 };
 
 const divisorsAndPrime = (number) => {
-  const divisors = _divisors(number);
+  const divisors = _divisors(Number(number));
   if (!divisors.length) return;
 
   const primes = [];
