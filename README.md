@@ -46,8 +46,8 @@ curl --location --request POST 'http://localhost:3333/v1/math' \
 ```
 
 REST API was made with Given-When-Then pattern
-![Alt text](assets\all-tests.png?raw=true "All Tests")
+![Alt text](https://github.com/Felps03/divisors-api/blob/main/assets/all-tests.png?raw=true "All Tests")
 
 
 With 100% coverage
-![Alt text](assets\test-coverage.png?raw=true "Test in coverage")
+![Alt text](https://github.com/Felps03/divisors-api/blob/main/assets/test-coverage.png?raw=true "Test in coverage")
