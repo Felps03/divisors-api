@@ -35,3 +35,12 @@ Run as developer:
 ```
 npm run dev
 ```
+
+Test a REST API with curl 
+```
+curl --location --request POST 'http://localhost:3333/v1/math' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "number": 45
+}'
+```

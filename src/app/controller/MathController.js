@@ -2,7 +2,8 @@ const { divisorsAndPrime } = require('../service/MathService');
 
 class MathController {
   async divisorsandprime(req, res) {
-    const result = divisorsAndPrime(req.body);
+    const { number } = req.body;
+    const result = divisorsAndPrime(number);
     return res.status(200).json(result);
   }
 }
